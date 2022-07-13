@@ -1,0 +1,11 @@
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+}
