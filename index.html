@@ -34,7 +34,7 @@
                 </div> -->
 
                 <ul class="text-start">
-                    <li v-for="(mail, index) in mails"> {{index + 1}} => {{mail}} </li>
+                    <li v-for="(mail, index) in mails" v-if="mails.length >= 10"> {{index + 1}} => {{mail}} </li>
                 </ul>
 
 
