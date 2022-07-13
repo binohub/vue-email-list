@@ -24,18 +24,25 @@
 <body>
     <div id="app">
         <div class="container">
-            <div class="row text-center">
+            <div class="row ">
+    
+                <button id="bestBtn" type="button" 
+                @click="counter()"
+                class="btn btn-outline-dark text-center my-5 mx-3" > Generate Your Mails!</button>
+                <!-- <div class="input-group">
+                <input type="text" class="form-control" placeholder="Inserisci mail" aria-describedby="sizing-addon1">
+                </div> -->
 
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Inserisci mail" aria-describedby="sizing-addon1">
-                </div>
                 <ul class="text-start">
-                    <li v-for="(mail, index) in mails"> {{index + 1}} => {{mail}}  </li>
+                    <li v-for="(mail, index) in mails"> {{index + 1}} => {{mail}} </li>
                 </ul>
+
+
             </div>
         </div>
     </div>
 
 
 </body>
+
 </html>

@@ -25,6 +25,7 @@ const app = new Vue(
             },
 
             counter() {
+                this.mails = [];
                 for (let index = 0; index <= 9; index++) {
                     this.mailGenerator();
                 }
@@ -36,7 +37,7 @@ const app = new Vue(
         },
 
         created() {
-            this.counter();
+
         },
 
     });
